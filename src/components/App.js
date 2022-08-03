@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import { CheckAuth } from '../actions';
 import { store } from '../store';
 import { Navigate } from "react-router-dom";
+import Home from './Home';
 
 function App(props) {
 
@@ -18,6 +19,7 @@ function App(props) {
   } else {
     return (
       <div>
+        <Home />
       </div>
     );
   }

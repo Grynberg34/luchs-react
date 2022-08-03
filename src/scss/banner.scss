@@ -1,0 +1,58 @@
+@import '../scss/colors.scss';
+@import '../scss/font.scss';
+
+.banner {
+
+    .banner__img {
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .banner__logo {
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        width: 15%;
+    }
+
+    .banner__info {
+        position: absolute;
+        top: 34%;
+        right: 10%;
+        z-index: 1;
+        width: 30vw;
+
+        .banner__info__header {
+            font-size: 40px;
+            font-weight: 800;
+            color: $branco;
+        }
+
+        .banner__info__bar {
+            width: 40%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .banner__info__title {
+            font-size: 60px;
+            font-weight: 500;
+            color: $branco;
+        }
+
+        .banner__info__box {
+            width: 3vw;
+            height: 3vw;
+
+        }
+
+        .banner__info__number {
+            position: absolute;
+            left: 2.5%;
+            top: 56%;
+            font-size: 24px;
+            font-weight: 900;
+        }
+    }
+}

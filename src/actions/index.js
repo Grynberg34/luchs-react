@@ -158,3 +158,15 @@ export const DeleteText = (token, id) => async dispatch => {
     })
 
 };
+
+export const GetLastText = () => async dispatch => {
+
+    await api.get('/home/banner')
+    .then(function(response){
+        dispatch({ type: 'GET_LAST_TEXT', payload: response.data});
+    })
+    .catch(function(err){
+        console.log(err)
+    })
+
+};

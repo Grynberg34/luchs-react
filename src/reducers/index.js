@@ -58,6 +58,16 @@ const getTextReducer = (text = null, action) => {
   return text;
 };
 
+const getLastTextReducer = (last = null, action) => {
+  if (action.type === 'GET_LAST_TEXT') {
+
+    return action.payload;
+    
+  }
+  
+  return last;
+};
+
 export default combineReducers({
 
   jwt: userLogInReducer,
@@ -65,6 +75,7 @@ export default combineReducers({
   fail: failedLogInReducer,
   texts: getTextsReducer,
   text: getTextReducer,
+  last: getLastTextReducer,
   form: formReducer
   
 });
