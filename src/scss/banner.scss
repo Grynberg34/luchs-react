@@ -4,7 +4,7 @@
 .banner {
 
     .banner__img {
-        position: absolute;
+        position: relative;
         width: 100%;
         z-index: -1;
     }
@@ -14,45 +14,65 @@
         top: 10%;
         right: 5%;
         width: 15%;
+        z-index: 1;
+    }
+
+    .banner__ball {
+        position: absolute;
+        top: 8%;
+        right: -10%;
+        z-index: 0;
+        width: 45%;
     }
 
     .banner__info {
         position: absolute;
-        top: 34%;
+        top: 37%;
         right: 10%;
         z-index: 1;
         width: 30vw;
 
         .banner__info__header {
+            position: relative;
             font-size: 40px;
             font-weight: 800;
             color: $branco;
+            z-index: 1;
         }
 
         .banner__info__bar {
+            position: relative;
             width: 40%;
             margin-top: 20px;
             margin-bottom: 20px;
+            z-index: 1;
         }
+
+
 
         .banner__info__title {
-            font-size: 60px;
-            font-weight: 500;
-            color: $branco;
-        }
+            position: relative;
+            z-index: 1;
 
-        .banner__info__box {
-            width: 3vw;
-            height: 3vw;
-
-        }
-
-        .banner__info__number {
-            position: absolute;
-            left: 2.5%;
-            top: 56%;
-            font-size: 24px;
-            font-weight: 900;
+            .banner__info__title__text {
+                font-size: 60px;
+                font-weight: 500;
+                color: $branco;
+            }
+    
+            .banner__info__title__box {
+                width: 3vw;
+                height: 3vw;
+    
+            }
+    
+            .banner__info__title__number {
+                position: absolute;
+                left: 2.6%;
+                top: 21%;
+                font-size: 24px;
+                font-weight: 900;
+            }
         }
     }
 }

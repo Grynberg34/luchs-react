@@ -1,0 +1,28 @@
+@import '../scss/colors.scss';
+@import '../scss/font.scss';
+
+.quemsomos {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    .quemsomos__title {
+        font-size: 100px;
+        font-weight: 400;
+        color: $cinza;
+        margin-bottom: 4vw;
+    }
+
+    .quemsomos__text {
+        font-size: 26px;
+        width: 80%;
+        color: $cinza-escuro;
+        font-weight: 500;
+
+    }
+
+    .quemsomos__img {
+        width: 100%;
+    }
+}

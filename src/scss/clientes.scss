@@ -1,0 +1,20 @@
+@import '../scss/colors.scss';
+@import '../scss/font.scss';
+
+.clientes {
+    margin-top: 4vw;
+    margin-bottom: 20vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    .clientes__title {
+        font-size: 100px;
+        font-weight: 400;
+        color: $cinza;
+        margin-bottom: 6vw;
+    }
+
+    .clientes__img {
+        margin-bottom: 4vw;
+    }
+}

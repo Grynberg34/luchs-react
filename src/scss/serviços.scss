@@ -1,0 +1,24 @@
+@import '../scss/colors.scss';
+@import '../scss/font.scss';
+
+.serviços {
+    margin-top: 4vw;
+    margin-bottom: 20vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    .serviços__title {
+        font-size: 100px;
+        font-weight: 400;
+        color: $cinza;
+        margin-bottom: 8vw;
+    }
+
+    .serviços__carousel {
+
+        .serviços__carousel__item {
+            background-color: $vermelho;
+            border-radius: 36px;
+        }
+    }
+}

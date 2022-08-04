@@ -10,6 +10,7 @@ import CriarTexto from './components/CriarTexto';
 import {store, persistor} from './store.js';
 import { PersistGate } from 'redux-persist/integration/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./scss/index.scss";
 
 ReactDOM.render(
   <Provider store={store}>
@@ -27,5 +28,3 @@ ReactDOM.render(
   </Provider>,
   document.querySelector('#root')
 );
-
-
