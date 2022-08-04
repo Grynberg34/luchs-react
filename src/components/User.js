@@ -56,7 +56,7 @@ function User(props) {
 
   } else {
     return (
-      <Navigate to="/login" />
+      <Navigate to="/" />
     )
   }
 
