@@ -81,7 +81,7 @@ function TextosMar(props) {
                 )
               } else {
                 return (
-                  <div></div>
+                  <div key={text.id}></div>
                 )
               }
             }
@@ -151,7 +151,7 @@ function TextosMar(props) {
                 )
               } else {
                 return (
-                  <div></div>
+                  <div key={text.id}></div>
                 )
               }
             }

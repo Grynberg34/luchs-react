@@ -83,7 +83,7 @@ function TextosEmp(props) {
                 )
               } else {
                 return (
-                  <div></div>
+                  <div key={text.id}></div>
                 )
               }
             }
@@ -153,7 +153,7 @@ function TextosEmp(props) {
                 )
               } else {
                 return (
-                  <div></div>
+                  <div key={text.id}></div>
                 )
               }
             }
