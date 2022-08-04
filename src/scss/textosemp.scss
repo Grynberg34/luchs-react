@@ -1,0 +1,149 @@
+@import '../scss/colors.scss';
+@import '../scss/font.scss';
+
+.textos {
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    .textos__link {
+        text-decoration: none;
+    }
+
+    .textos__title {
+        font-size: 100px;
+        font-weight: 400;
+        color: $cinza;
+        margin-bottom: 1vw;
+    }
+
+    .textos__bar {
+        margin-left: 12vw;
+        width: 60%;
+        margin-bottom: 8vw;
+    }
+
+    .textos__texto {
+        position: relative;
+
+        .textos__texto__img {
+            width: 100%;
+        }
+
+        .textos__texto__title {
+            font-size: 50px;
+            font-weight: 600;
+            color: $cinza;
+            margin-bottom: 2vw;
+            text-decoration: none;
+        }
+
+        .textos__texto__title--left {
+            font-size: 50px;
+            font-weight: 600;
+            color: $cinza;
+            margin-bottom: 2vw;
+            text-align: right;
+        }
+
+        .textos__texto__paragraph {
+            font-size: 28px;
+            font-weight: 500;
+            color: $cinza-escuro;
+            line-height: 2;
+            text-decoration: none;
+        }
+
+        .textos__texto__paragraph--left {
+            font-size: 28px;
+            font-weight: 500;
+            color: $cinza-escuro;
+            line-height: 2;
+            text-align: right;
+        }
+
+        .textos__texto__arrow {
+            display: block;
+            margin-top: 4vw;
+            margin-bottom: 1vw;
+            width: 20%;
+        }
+
+        .textos__texto__arrow--left {
+            display: block;
+            margin-top: 2vw;
+            margin-bottom: 1vw;
+            width: 20%;
+            margin-left: auto;
+            rotate: 180deg;
+        }
+
+
+        .textos__texto__box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3vw;
+            height: 3vw;
+
+        }
+
+        .textos__texto__number {
+            position: absolute;
+            left: 1%;
+            top: 2%;
+            font-size: 24px;
+            font-weight: 900;
+            color: $cinza;
+        }
+
+
+        .textos__texto__box--left {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 3vw;
+            height: 3vw;
+
+        }
+
+        .textos__texto__number--left {
+            position: absolute;
+            right: 1%;
+            top: 2%;
+            font-size: 24px;
+            font-weight: 900;
+            color: $cinza;
+        }
+        
+
+    }
+
+    .textos__button {
+        display: block;
+        font-size: 60px;
+        color: $cinza;
+        font-weight: 500;
+        background: none;
+        border: none;
+        outline: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4vw;
+
+        .textos__button__arrow {
+            display: inline;
+            width: 10%;
+        }
+
+    }
+}
+
+.right {
+    margin-left: 4vw;
+}
+
+.left {
+    margin-right: 4vw;
+}

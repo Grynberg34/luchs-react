@@ -53,6 +53,7 @@
         .banner__info__title {
             position: relative;
             z-index: 1;
+            height: 15vw;
 
             .banner__info__title__text {
                 font-size: 60px;
@@ -69,7 +70,7 @@
             .banner__info__title__number {
                 position: absolute;
                 left: 2.6%;
-                top: 21%;
+                top: 11%;
                 font-size: 24px;
                 font-weight: 900;
             }

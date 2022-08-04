@@ -170,3 +170,39 @@ export const GetLastText = () => async dispatch => {
     })
 
 };
+
+export const GetTextsE = () => async dispatch => {
+
+    await api.get('/home/empresarias')
+    .then(function(response){
+        dispatch({ type: 'GET_TEXTS_E', payload: response.data});
+    })
+    .catch(function(err){
+        console.log(err)
+    })
+
+};
+
+export const ShowAllTextsE = () => async dispatch => {
+
+    dispatch({ type: 'SHOW_ALL_TEXTS_E', payload: true});
+
+};
+
+export const GetTextsM = () => async dispatch => {
+
+    await api.get('/home/marketeiras')
+    .then(function(response){
+        dispatch({ type: 'GET_TEXTS_M', payload: response.data});
+    })
+    .catch(function(err){
+        console.log(err)
+    })
+
+};
+
+export const ShowAllTextsM = () => async dispatch => {
+
+    dispatch({ type: 'SHOW_ALL_TEXTS_M', payload: true});
+
+};

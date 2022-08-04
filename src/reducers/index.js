@@ -68,6 +68,46 @@ const getLastTextReducer = (last = null, action) => {
   return last;
 };
 
+const getEmpTextsReducer = (texts_emp = null, action) => {
+  if (action.type === 'GET_TEXTS_E') {
+
+    return action.payload;
+    
+  }
+  
+  return texts_emp;
+};
+
+const showAllEmpTextsReducer = (show_emp = false, action) => {
+  if (action.type === 'SHOW_ALL_TEXTS_E') {
+
+    return action.payload;
+    
+  }
+  
+  return show_emp;
+};
+
+const getMarTextsReducer = (texts_mar = null, action) => {
+  if (action.type === 'GET_TEXTS_M') {
+
+    return action.payload;
+    
+  }
+  
+  return texts_mar;
+};
+
+const showAllMarTextsReducer = (show_mar = false, action) => {
+  if (action.type === 'SHOW_ALL_TEXTS_M') {
+
+    return action.payload;
+    
+  }
+  
+  return show_mar;
+};
+
 export default combineReducers({
 
   jwt: userLogInReducer,
@@ -76,6 +116,10 @@ export default combineReducers({
   texts: getTextsReducer,
   text: getTextReducer,
   last: getLastTextReducer,
+  texts_emp: getEmpTextsReducer,
+  show_emp: showAllEmpTextsReducer,
+  texts_mar: getMarTextsReducer,
+  show_mar: showAllMarTextsReducer,
   form: formReducer
   
 });
