@@ -45,27 +45,27 @@ function Serviços() {
       <Slider className="serviços__carousel" {...settings}>
         <div className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design Gráfico</h2>
+          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
         </div>
         <div className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design Gráfico</h2>
+          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
         </div>
         <div className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design Gráfico</h2>
+          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
         </div>
         <div className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design Gráfico</h2>
+          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
         </div>
         <div className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design Gráfico</h2>
+          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
         </div>
         <div className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design Gráfico</h2>
+          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
         </div>
       </Slider>
 
