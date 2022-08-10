@@ -1,9 +1,11 @@
 @import '../scss/colors.scss';
 @import '../scss/font.scss';
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 
 .serviços {
     margin-top: 4vw;
-    margin-bottom: 20vw;
+    margin-bottom: 10vw;
     margin-left: 10vw;
     margin-right: 10vw;
 
@@ -17,8 +19,27 @@
     .serviços__carousel {
 
         .serviços__carousel__item {
-            background-color: $vermelho;
-            border-radius: 36px;
+            position: relative;
+
+            &:focus {
+                outline: none;
+                border: none;
+            }
+
+            .serviços__carousel__item__img {
+                width: 100%;
+                z-index: 1;
+
+            }
+
+            .serviços__carousel__item__text {
+                position: absolute;
+                z-index: 2;
+                font-size: 20px;
+                color: $branco;
+                top: 47%;
+                left: 28%;
+            }
         }
     }
 }
