@@ -26,7 +26,7 @@ function TextosMar(props) {
   } else if (show_mar === false) {
     return (
       <div className='textos'>
-        <h1 className='textos__title'>Para empresárias</h1>
+        <h1 className='textos__title'>Para marketeiras</h1>
         <img src='/blog-barra.svg' className='textos__bar' alt=''></img>
 
         { texts_mar.map( (text, i) => 

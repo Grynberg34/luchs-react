@@ -5,7 +5,7 @@
 
 .serviços {
     margin-top: 4vw;
-    margin-bottom: 10vw;
+    margin-bottom: 6vw;
     margin-left: 10vw;
     margin-right: 10vw;
 
@@ -13,7 +13,7 @@
         font-size: 100px;
         font-weight: 400;
         color: $cinza;
-        margin-bottom: 8vw;
+        margin-bottom: 4vw;
     }
 
     .serviços__carousel {
@@ -44,4 +44,128 @@
             }
         }
     }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+
+    .serviços {
+        .serviços__title {
+            font-size: 50px;
+        }
+
+        .serviços__carousel {
+            .serviços__carousel__item {
+                .serviços__carousel__item__text {
+                    font-size: 16px;
+                    top: 37%;
+                    left: 34%;
+                }
+            }
+        }
+    }
+
+    .slick-prev, .slick-next {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .slick-prev {
+        left: -40px !important;
+    }
+
+    .slick-next {
+        right: -40px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1300px) {
+
+    .serviços {
+        .serviços__title {
+            font-size: 60px;
+        }
+
+        .serviços__carousel {
+            .serviços__carousel__item {
+                .serviços__carousel__item__text {
+                    font-size: 18px;
+                    top: 38%;
+                    left: 36%;
+                }
+            }
+        }
+    }
+
+    .slick-prev, .slick-next {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .slick-prev {
+        left: -50px !important;
+    }
+
+    .slick-next {
+        right: -50px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1500px) {
+
+    .serviços {
+        .serviços__title {
+            font-size: 70px;
+        }
+
+        .serviços__carousel {
+            .serviços__carousel__item {
+                .serviços__carousel__item__text {
+                    font-size: 20px;
+                    top: 38%;
+                    left: 35%;
+                }
+            }
+        }
+    }
+
+    .slick-prev, .slick-next {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .slick-prev {
+        left: -50px !important;
+    }
+
+    .slick-next {
+        right: -50px !important;
+    }
+
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1700px) {
+
+    .serviços {
+        .serviços__title {
+            font-size: 80px;
+        }
+
+        .serviços__carousel {
+            .serviços__carousel__item {
+                .serviços__carousel__item__text {
+                    font-size: 22px;
+                    top: 37%;
+                    left: 36%;
+                }
+            }
+        }
+    }
+
+    .slick-prev, .slick-next {
+        width: 30px !important;
+        height: 30px !important;
+    }
+
 }

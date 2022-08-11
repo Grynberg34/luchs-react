@@ -147,3 +147,153 @@
 .left {
     margin-right: 4vw;
 }
+
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+
+    .textos {
+        .textos__title {
+            font-size: 50px;
+        }
+
+        .textos__texto {
+
+            .textos__texto__title, .textos__texto__title--left {
+                font-size: 26px;
+            }
+
+            .textos__texto__number, .textos__texto__number--left {
+                font-size: 14px;
+            }
+
+            .textos__texto__paragraph, .textos__texto__paragraph--left {
+                font-size: 14px;
+            }
+
+            .textos__texto__arrow, .textos__texto__arrow--left {
+                margin-top: 4vw;
+            }
+        }
+
+        .textos__button {
+            font-size: 30px;
+
+            .textos__button__arrow {
+                width: 6%;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1300px) {
+
+    .textos {
+        .textos__title {
+            font-size: 60px;
+        }
+
+        .textos__texto {
+
+            .textos__texto__title, .textos__texto__title--left {
+                font-size: 32px;
+            }
+
+            .textos__texto__number, .textos__texto__number--left {
+                font-size: 16px;
+            }
+
+            .textos__texto__paragraph, .textos__texto__paragraph--left {
+                font-size: 18px;
+            }
+
+            .textos__texto__arrow, .textos__texto__arrow--left {
+                margin-top: 4vw;
+            }
+        }
+
+        .textos__button {
+            font-size: 40px;
+
+            .textos__button__arrow {
+                width: 8%;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1500px) {
+
+    .textos {
+        .textos__title {
+            font-size: 70px;
+        }
+
+        .textos__texto {
+
+            .textos__texto__title, .textos__texto__title--left {
+                font-size: 32px;
+            }
+
+            .textos__texto__number, .textos__texto__number--left {
+                font-size: 18px;
+            }
+
+            .textos__texto__paragraph, .textos__texto__paragraph--left {
+                font-size: 18px;
+            }
+
+            .textos__texto__arrow, .textos__texto__arrow--left {
+                margin-top: 4vw;
+            }
+        }
+
+        .textos__button {
+            font-size: 40px;
+
+            .textos__button__arrow {
+                width: 8%;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1700px) {
+
+    .textos {
+        .textos__title {
+            font-size: 80px;
+        }
+
+        .textos__texto {
+
+            .textos__texto__title, .textos__texto__title--left {
+                font-size: 40px;
+            }
+
+            .textos__texto__number, .textos__texto__number--left {
+                font-size: 20px;
+            }
+
+            .textos__texto__paragraph, .textos__texto__paragraph--left {
+                font-size: 22px;
+            }
+
+            .textos__texto__arrow, .textos__texto__arrow--left {
+                margin-top: 4vw;
+            }
+        }
+
+        .textos__button {
+            font-size: 40px;
+
+            .textos__button__arrow {
+                width: 8%;
+            }
+        }
+    }
+
+
+}
