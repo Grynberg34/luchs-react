@@ -2,6 +2,7 @@
 @import '../scss/font.scss';
 
 .contato {
+    position: relative;
     margin-top: 4vw;
     padding-top: 4vw;
     padding-left: 10vw;
@@ -14,6 +15,33 @@
         font-size: 100px;
         font-weight: 400;
         color: $branco;
+        margin-bottom: 4vw;
+    }
+
+    .contato__subtitle {
+        display: block;
+        font-size: 30px;
+        font-weight: 300;
+        color: $branco;
+        margin-bottom: 2vw;
+    }
+
+    .contato__bar {
+        border-right: 2px solid $branco;
+        margin-right: 4vw;
+    }
+
+    .contato__img {
+        width: 5%;
+    }
+
+    .contato__logo {
+        position: absolute;
+        top: 50%;
+        width: 5%;
+        border: 1px solid $branco;
+        border-radius: 72px;
+        padding: 1vw;
     }
 
 }

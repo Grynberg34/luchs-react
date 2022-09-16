@@ -1,5 +1,6 @@
 import "../scss/serviços.scss";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
@@ -43,30 +44,30 @@ function Serviços() {
     <div className="serviços">
       <h1 className="serviços__title">Nossos serviços</h1>
       <Slider className="serviços__carousel" {...settings}>
-        <div className="serviços__carousel__item">
+        <Link to="/" className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
-        </div>
-        <div className="serviços__carousel__item">
+          <h2 className="serviços__carousel__item__text">Marketing <br></br> de conteúdo</h2>
+        </Link>
+        <Link to="/" className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
-        </div>
-        <div className="serviços__carousel__item">
+          <h2 className="serviços__carousel__item__text">Copywriting</h2>
+        </Link>
+        <Link to="/" className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
-        </div>
-        <div className="serviços__carousel__item">
+          <h2 className="serviços__carousel__item__text">Artes <br></br> gráficas</h2>
+        </Link>
+        <Link to="/" className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
-        </div>
-        <div className="serviços__carousel__item">
+          <h2 className="serviços__carousel__item__text" id="gerenciamento">Gerenciamento <br></br> de publicações</h2>
+        </Link>
+        <Link to="/" className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
-        </div>
-        <div className="serviços__carousel__item">
+          <h2 className="serviços__carousel__item__text">Análise <br></br> de dados</h2>
+        </Link>
+        <Link to="/" className="serviços__carousel__item">
           <img className="serviços__carousel__item__img" src="/servicos/circle.png" alt=""></img>
-          <h2 className="serviços__carousel__item__text">Design <br></br> Gráfico</h2>
-        </div>
+          <h2 className="serviços__carousel__item__text">Branding</h2>
+        </Link>
       </Slider>
 
     </div>

@@ -39,11 +39,18 @@
                 font-weight: 800;
                 color: $branco;
                 top: 40%;
-                left: 37%;
+                height: 20%;
+                left: 25%;
+                width: 50%;
                 line-height: 1.5;
+                text-align: center;
             }
         }
     }
+}
+
+#gerenciamento {
+    font-size: 20px;
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1100px) {
@@ -57,8 +64,6 @@
             .serviços__carousel__item {
                 .serviços__carousel__item__text {
                     font-size: 16px;
-                    top: 37%;
-                    left: 34%;
                 }
             }
         }
@@ -90,8 +95,6 @@
             .serviços__carousel__item {
                 .serviços__carousel__item__text {
                     font-size: 18px;
-                    top: 38%;
-                    left: 36%;
                 }
             }
         }
@@ -123,8 +126,6 @@
             .serviços__carousel__item {
                 .serviços__carousel__item__text {
                     font-size: 20px;
-                    top: 38%;
-                    left: 35%;
                 }
             }
         }
@@ -156,8 +157,6 @@
             .serviços__carousel__item {
                 .serviços__carousel__item__text {
                     font-size: 22px;
-                    top: 37%;
-                    left: 36%;
                 }
             }
         }

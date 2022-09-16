@@ -12,38 +12,35 @@ function Clientes() {
       <Container fluid>
         <Row>
           <Col md={3}>
-            <img src='/clientes/placeholder.png' className="clientes__img" alt='img'></img>
+            <img src='/clientes/1.png' className="clientes__img" alt='img'></img>
           </Col>
 
           <Col md={3}>
-            <img src='/clientes/placeholder.png' className="clientes__img" alt='img'></img>
+            <img src='/clientes/2.png' className="clientes__img" alt='img'></img>
           </Col>
 
           <Col md={3}>
-            <img src='/clientes/placeholder.png' className="clientes__img" alt='img'></img>
+            <img src='/clientes/3.png' className="clientes__img" alt='img'></img>
           </Col>
 
           <Col md={3}>
-            <img src='/clientes/placeholder.png' className="clientes__img" alt='img'></img>
+            <img src='/clientes/4.png' className="clientes__img" alt='img'></img>
           </Col>
         </Row>
 
         <Row>
           <Col md={3}>
-            <img src='/clientes/placeholder.png' className="clientes__img" alt='img'></img>
+            <img src='/clientes/5.png' className="clientes__img" alt='img'></img>
           </Col>
 
           <Col md={3}>
-            <img src='/clientes/placeholder.png' className="clientes__img" alt='img'></img>
+            <img src='/clientes/6.png' className="clientes__img" alt='img'></img>
           </Col>
 
           <Col md={3}>
-            <img src='/clientes/placeholder.png' className="clientes__img" alt='img'></img>
+            <img src='/clientes/7.png' className="clientes__img" alt='img'></img>
           </Col>
 
-          <Col md={3}>
-            <img src='/clientes/placeholder.png' className="clientes__img" alt='img'></img>
-          </Col>
         </Row>
       </Container>
       
