@@ -6,7 +6,7 @@ import "../scss/clientes.scss";
 function Clientes() {
 
   return (
-    <div className="clientes">
+    <div id="clientes" className="clientes">
       <h1 className="clientes__title">Nossos clientes</h1>
 
       <Container fluid>

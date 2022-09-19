@@ -108,6 +108,16 @@ const showAllMarTextsReducer = (show_mar = false, action) => {
   return show_mar;
 };
 
+const openCloseMenuReducer = (open = false, action) => {
+  if (action.type === 'OPEN_CLOSE_MENU') {
+
+    return action.payload;
+    
+  }
+  
+  return open;
+};
+
 export default combineReducers({
 
   jwt: userLogInReducer,
@@ -120,6 +130,7 @@ export default combineReducers({
   show_emp: showAllEmpTextsReducer,
   texts_mar: getMarTextsReducer,
   show_mar: showAllMarTextsReducer,
+  open: openCloseMenuReducer,
   form: formReducer
   
 });

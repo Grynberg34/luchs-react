@@ -13,8 +13,6 @@ function TextosEmp(props) {
   var texts_emp = props.texts_emp;
   var show_emp = props.show_emp;
 
-  console.log(show_emp)
-
   function showAll() {
     store.dispatch(ShowAllTextsE())
   }
@@ -27,7 +25,7 @@ function TextosEmp(props) {
     )
   } else if (show_emp === false) {
     return (
-      <div className='textos'>
+      <div id="empresarias" className='textos'>
         <h1 className='textos__title'>Para empresárias</h1>
         <img src='/blog-barra.svg' className='textos__bar' alt=''></img>
 

@@ -6,7 +6,7 @@ import "../scss/quemsomos.scss";
 function QuemSomos() {
 
   return (
-    <div className="quemsomos">
+    <div id="quemsomos" className="quemsomos">
       <Container fluid>
         <Row>
           <Col md={7}>

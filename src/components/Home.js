@@ -1,3 +1,4 @@
+import Menu from './Menu';
 import Banner from './Banner';
 import QuemSomos from './QuemSomos';
 import Serviços from './Serviços';
@@ -10,6 +11,7 @@ function Home() {
 
   return (
     <div>
+      <Menu />
       <Banner />
       <QuemSomos />
       <Serviços />

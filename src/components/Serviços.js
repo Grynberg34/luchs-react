@@ -41,7 +41,7 @@ function Serviços() {
   };
 
   return (
-    <div className="serviços">
+    <div id="serviços" className="serviços">
       <h1 className="serviços__title">Nossos serviços</h1>
       <Slider className="serviços__carousel" {...settings}>
         <Link to="/" className="serviços__carousel__item">

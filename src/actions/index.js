@@ -161,7 +161,11 @@ export const DeleteText = (token, id) => async dispatch => {
 
 export const GetLastText = () => async dispatch => {
 
-    await api.get('/home/banner')
+    await api.get('/home/banner', {
+        headers: {
+            'Access-Control-Allow-Origin' : '*',
+        }
+    })
     .then(function(response){
         dispatch({ type: 'GET_LAST_TEXT', payload: response.data});
     })
@@ -173,7 +177,11 @@ export const GetLastText = () => async dispatch => {
 
 export const GetTextsE = () => async dispatch => {
 
-    await api.get('/home/empresarias')
+    await api.get('/home/empresarias', {
+        headers: {
+            'Access-Control-Allow-Origin' : '*',
+        }
+    })
     .then(function(response){
         dispatch({ type: 'GET_TEXTS_E', payload: response.data});
     })
@@ -191,7 +199,11 @@ export const ShowAllTextsE = () => async dispatch => {
 
 export const GetTextsM = () => async dispatch => {
 
-    await api.get('/home/marketeiras')
+    await api.get('/home/marketeiras' , {
+        headers: {
+            'Access-Control-Allow-Origin' : '*',
+        }
+    })
     .then(function(response){
         dispatch({ type: 'GET_TEXTS_M', payload: response.data});
     })
@@ -204,5 +216,11 @@ export const GetTextsM = () => async dispatch => {
 export const ShowAllTextsM = () => async dispatch => {
 
     dispatch({ type: 'SHOW_ALL_TEXTS_M', payload: true});
+
+};
+
+export const OpenCloseMenu = (open) => async dispatch => {
+
+    dispatch({ type: 'OPEN_CLOSE_MENU', payload: open});
 
 };

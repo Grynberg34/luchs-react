@@ -1,5 +1,7 @@
 @import '../scss/colors.scss';
 @import '../scss/font.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
 
 .contato {
     position: relative;
@@ -24,6 +26,7 @@
         font-weight: 300;
         color: $branco;
         margin-bottom: 2vw;
+        font-family: 'Noto Sans', sans-serif !important;
     }
 
     .contato__bar {
@@ -52,6 +55,10 @@
         .contato__title {
             font-size: 50px;
         }
+
+        .contato__subtitle {
+            font-size: 17px;
+        }
     }
 
 }
@@ -61,6 +68,10 @@
     .contato {
         .contato__title {
             font-size: 60px;
+        }
+
+        .contato__subtitle {
+            font-size: 19px;
         }
     }
 
@@ -72,6 +83,10 @@
         .contato__title {
             font-size: 70px;
         }
+
+        .contato__subtitle {
+            font-size: 21px;
+        }
     }
 
 }
@@ -81,6 +96,10 @@
     .contato {
         .contato__title {
             font-size: 80px;
+        }
+
+        .contato__subtitle {
+            font-size: 25px;
         }
     }
 
