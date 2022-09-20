@@ -1,0 +1,68 @@
+@import '../scss/colors.scss';
+@import '../scss/font.scss';
+
+.serviços {
+    .serviços__title {
+        font-size: 100px;
+        font-weight: 300;
+        color: $cinza;
+        margin-top: 2vw;
+        margin-bottom: 6vw;
+        text-align: center;
+    }
+
+    .serviços__card {
+        margin-top: 4vw;
+
+        .serviços__card__info {
+            margin-top: 4vw;
+
+            .serviços__card__info__title {
+                font-size: 40px;
+                font-weight: 700;
+                color: $cinza;
+                margin-bottom: 2vw;
+
+            }
+
+            .serviços__card__info__text {
+                font-size: 20px;
+                color: $cinza;
+                font-weight: 500;
+                width: 90%;
+                line-height: 2;
+            }
+        }
+        
+        .serviços__card__img {
+            width: 100%;
+        }
+    }
+}
+
+.right {
+    margin-left: 4vw;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+
+
+
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1300px) {
+
+
+
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1500px) {
+
+
+}
+
+@media only screen and (min-width: 1501px) and (max-width: 1700px) {
+
+
+
+}

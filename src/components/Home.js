@@ -1,4 +1,4 @@
-import Menu from './Menu';
+import MenuHome from './MenuHome';
 import Banner from './Banner';
 import QuemSomos from './QuemSomos';
 import Serviços from './Serviços';
@@ -11,7 +11,7 @@ function Home() {
 
   return (
     <div>
-      <Menu />
+      <MenuHome />
       <Banner />
       <QuemSomos />
       <Serviços />

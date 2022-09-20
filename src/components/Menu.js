@@ -1,6 +1,8 @@
 import { connect } from 'react-redux';
 import { store } from '../store';
 import { OpenCloseMenu } from '../actions';
+import { HashLink as Link } from 'react-router-hash-link';
+
 import "../scss/menu.scss";
 
 function Menu(props) {
@@ -22,12 +24,12 @@ function Menu(props) {
     return (
       <div className="open">
           <h1 onClick={openClose} className="open__close">x</h1>
-          <a onClick={openClose}  href="#quemsomos" className="open__link">_Quem São</a>
-          <a onClick={openClose}  href="#serviços" className="open__link">_Serviços</a>
-          <a onClick={openClose}  href="#clientes" className="open__link">_Clientes</a>
-          <a onClick={openClose}  href="#empresarias" className="open__link">_Para empresárias</a>
-          <a onClick={openClose}  href="#marketeiras" className="open__link">_Para marketeiras</a>
-          <a onClick={openClose}  href="#contato" className="open__link">_Contato</a>
+          <Link onClick={openClose}  to="/#quemsomos" className="open__link">_Quem São</Link>
+          <Link onClick={openClose}  to="/#servicos" className="open__link">_Serviços</Link>
+          <Link onClick={openClose}  to="/#clientes" className="open__link">_Clientes</Link>
+          <Link onClick={openClose}  to="/#empresarias" className="open__link">_Para empresárias</Link>
+          <Link onClick={openClose}  to="/#marketeiras" className="open__link">_Para marketeiras</Link>
+          <Link onClick={openClose}  to="/#contato" className="open__link">_Contato</Link>
       </div>
     )
   }
