@@ -1,8 +1,8 @@
 @import '../scss/colors.scss';
 @import '../scss/font.scss';
 
-.serviços {
-    .serviços__title {
+.lista {
+    .lista__title {
         font-size: 100px;
         font-weight: 300;
         color: $cinza;
@@ -11,13 +11,13 @@
         text-align: center;
     }
 
-    .serviços__card {
+    .lista__card {
         margin-top: 4vw;
 
-        .serviços__card__info {
+        .lista__card__info {
             margin-top: 4vw;
 
-            .serviços__card__info__title {
+            .lista__card__info__title {
                 font-size: 40px;
                 font-weight: 700;
                 color: $cinza;
@@ -25,7 +25,7 @@
 
             }
 
-            .serviços__card__info__text {
+            .lista__card__info__text {
                 font-size: 20px;
                 color: $cinza;
                 font-weight: 500;
@@ -34,7 +34,7 @@
             }
         }
         
-        .serviços__card__img {
+        .lista__card__img {
             width: 100%;
         }
     }
