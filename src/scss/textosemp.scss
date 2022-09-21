@@ -8,6 +8,10 @@
     padding-right: 10vw;
     background-image: url('../images/fundo-blog.png');
 
+    .textos__col {
+        padding: 0 !important;
+    }
+
     .textos__link {
         text-decoration: none;
     }

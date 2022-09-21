@@ -37,7 +37,7 @@ function TextosMar(props) {
                     <div className='textos__texto'>
                       <Container fluid>
                         <Row>
-                          <Col md={6}>
+                          <Col md={6} className='textos__col'>
                             <div className='left'>
                               <img src='/seta-texto.svg' className='textos__texto__arrow--left' alt=''></img>
                               <h2 className='textos__texto__title--left'>{text.titulo}</h2>
@@ -45,7 +45,7 @@ function TextosMar(props) {
                             </div>
                           </Col>
       
-                          <Col md={6}>
+                          <Col md={6} className='textos__col'>
                             <img src='/box-blog.png' className='textos__texto__box--left' alt='logo'></img> 
                             <span className='textos__texto__number--left'>{text.numero}</span>
                             <img src={`/marketeiras/${text.id}.png`} className='textos__texto__img' alt=''></img>
@@ -61,13 +61,13 @@ function TextosMar(props) {
                     <div className='textos__texto'>
                       <Container fluid>
                         <Row>
-                          <Col md={6}>
+                          <Col md={6} className='textos__col'>
                             <img src={`/marketeiras/${text.id}.png`} className='textos__texto__img' alt=''></img>
                             <img src='/box-blog.png' className='textos__texto__box' alt='logo'></img> 
                             <span className='textos__texto__number'>{text.numero}</span>
                           </Col>
       
-                          <Col md={6}>
+                          <Col md={6} className='textos__col'>
                             <div className='right'>
                               <img src='/seta-texto.svg' className='textos__texto__arrow' alt=''></img>
                               <h2 className='textos__texto__title'>{text.titulo}</h2> 
