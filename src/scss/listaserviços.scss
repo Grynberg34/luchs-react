@@ -1,8 +1,12 @@
 @import '../scss/colors.scss';
 @import '../scss/font.scss';
 
-.lista {
+
+#lista {
     background-image: url('../images/fundo-serviços.jpg');
+}
+
+.lista {
 
     .lista__title {
         font-size: 100px;
@@ -47,13 +51,10 @@
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1100px) {
-
-    #lista {
+    
+    .lista {
         padding-right: 5vw;
         padding-left: 5vw;
-    }
-
-    .lista {
 
         .lista__title {
             font-size: 60px;
@@ -75,14 +76,11 @@
 }
 
 @media only screen and (min-width: 1101px) and (max-width: 1300px) {
-
-    #lista {
+    
+    .lista {
         padding-right: 5vw;
         padding-left: 5vw;
-    }
-
-    .lista {
-
+        
         .lista__title {
             font-size: 80px;
         }
@@ -104,13 +102,10 @@
 
 @media only screen and (min-width: 1301px) and (max-width: 1500px) {
 
-    #lista {
+    .lista {
         padding-right: 5vw;
         padding-left: 5vw;
-    }
-
-    .lista {
-
+        
         .lista__title {
             font-size: 80px;
         }
