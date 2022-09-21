@@ -6,8 +6,8 @@ import "../scss/listaserviços.scss";
 function ListaServiços() {
 
   return (
-    <Container className="lista">
-      <h1 className="lista__title">Nossos lista</h1>
+    <Container id="lista" className="lista">
+      <h1 className="lista__title">Nossos serviços</h1>
 
       <Container>
         <Row className="lista__card">

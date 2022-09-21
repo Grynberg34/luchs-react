@@ -2,10 +2,11 @@
 @import '../scss/font.scss';
 
 .textos {
-    margin-top: 4vw;
-    margin-bottom: 10vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    padding-top: 4vw;
+    padding-bottom: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-image: url('../images/fundo-blog.png');
 
     .textos__link {
         text-decoration: none;
