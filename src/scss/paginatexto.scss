@@ -80,21 +80,123 @@
 
 @media only screen and (min-width: 900px) and (max-width: 1100px) {
 
+    .texto {
+        .texto__title {
+            font-size: 24px;
+        }
+
+        .texto__text {
+            font-size: 12px
+        }
+
+        .texto__category {
+            top: 50%;
+            right: -6%;
+            font-size: 40px;
+        }
+
+        .texto__author {
+            font-size: 14px;
+        }
+    
+        .texto__mais {
+            top: 80%;
+            right: -22%;
+            font-size: 14px;
+
+            .texto__mais__seta {
+                width: 20%;
+            }
+    
+        }
+    }
 
 
 }
 
 @media only screen and (min-width: 1101px) and (max-width: 1300px) {
 
+    .texto {
+        .texto__title {
+            font-size: 30px;
+        }
+
+        .texto__text {
+            font-size: 14px
+        }
+
+        .texto__category {
+            top: 70%;
+            right: -9%;
+            font-size: 60px;
+        }
+
+        .texto__author {
+            font-size: 16px;
+        }
+    
+        .texto__mais {
+            top: 114%;
+            right: -16%;
+            font-size: 18px;
+
+            .texto__mais__seta {
+                width: 25%;
+            }
+    
+        }
+    }
 
 }
 
 @media only screen and (min-width: 1301px) and (max-width: 1500px) {
 
+    .texto {
+        .texto__title {
+            font-size: 30px;
+        }
+
+        .texto__text {
+            font-size: 14px
+        }
+
+        .texto__category {
+            top: 70%;
+            right: -8%;
+            font-size: 60px;
+        }
+
+        .texto__author {
+            font-size: 16px;
+        }
+    
+        .texto__mais {
+            top: 110%;
+            right: -15%;
+            font-size: 18px;
+
+            .texto__mais__seta {
+                width: 25%;
+            }
+    
+        }
+    }
 
 }
 
 @media only screen and (min-width: 1501px) and (max-width: 1700px) {
 
+    .texto {
+        .texto__category {
+            top: 70%;
+            right: -8%;
+        }
+    
+        .texto__mais {
+            top: 115%;
+            right: -12%;
+    
+        }
+    }
 
 }
