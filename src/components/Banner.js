@@ -19,7 +19,7 @@ function Banner(props) {
 
       <div className='banner'>
 
-        <Link  to="/">
+        <Link  to={`/textos/${last.id}`}>
           
           <img src='/logo.svg' className='banner__logo' alt='logo'></img>
     

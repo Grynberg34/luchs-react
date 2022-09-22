@@ -224,3 +224,15 @@ export const OpenCloseMenu = (open) => async dispatch => {
     dispatch({ type: 'OPEN_CLOSE_MENU', payload: open});
 
 };
+
+export const ShowTextById = (id) => async dispatch => {
+
+    await api.get(`/home/texto/${id}`, {
+    }).then(function(response){
+        dispatch({ type: 'SHOW_TEXT_BY_ID', payload: response.data});
+    })
+    .catch(function(err){
+        console.log(err)
+    })
+
+};

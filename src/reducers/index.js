@@ -118,6 +118,17 @@ const openCloseMenuReducer = (open = false, action) => {
   return open;
 };
 
+const showTextByIdReducer = (text = null, action) => {
+  if (action.type === 'SHOW_TEXT_BY_ID') {
+
+    return action.payload;
+    
+  }
+  
+  return text;
+};
+
+
 export default combineReducers({
 
   jwt: userLogInReducer,
@@ -131,6 +142,7 @@ export default combineReducers({
   texts_mar: getMarTextsReducer,
   show_mar: showAllMarTextsReducer,
   open: openCloseMenuReducer,
+  textById: showTextByIdReducer,
   form: formReducer
   
 });

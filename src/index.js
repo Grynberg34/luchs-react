@@ -6,8 +6,9 @@ import App from './components/App';
 import Login from './components/Login';
 import User from './components/User';
 import Texto from './components/Texto';
-import TodosServiços from './components/TodosServiços';
 import CriarTexto from './components/CriarTexto';
+import TodosServiços from './components/TodosServiços';
+import PaginaTexto from './components/PaginaTexto';
 import {store, persistor} from './store.js';
 import { PersistGate } from 'redux-persist/integration/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Routes>
           <Route path="/" element={<App />}></Route>
           <Route path="/servicos" element={<TodosServiços />}></Route>
+          <Route path="/textos/:id" element={<PaginaTexto />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/user" element={<User />}></Route>
           <Route path="/user/criar" element={<CriarTexto />}></Route>
