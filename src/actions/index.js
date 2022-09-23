@@ -236,3 +236,21 @@ export const ShowTextById = (id) => async dispatch => {
     })
 
 };
+
+export const CheckText = (id) => async dispatch => {
+
+    if (id === 0) {
+        dispatch({ type: 'CHECK_TEXT', payload: true});
+    } else {
+        await api.get(`/home/texto/${id}`, {
+        }).then(function(response){
+            if (response.data === null) {
+                dispatch({ type: 'CHECK_TEXT', payload: false});
+            }
+        })
+        .catch(function(err){
+            console.log(err)
+        })
+    }
+
+};

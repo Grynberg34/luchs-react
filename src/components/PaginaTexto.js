@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import { store } from '../store';
 import { Link, useParams, Navigate } from "react-router-dom";
 import { ShowTextById } from '../actions';
+import { CheckText } from '../actions';
 import Menu from './Menu';
 import Contato from './Contato';
 import "../scss/paginatexto.scss";
@@ -12,16 +13,30 @@ function PaginaTexto(props) {
 
   var text = props.textById;
 
-  console.log(text)
+  var check = props.checkText;
 
-  if (text === null) {
+  async function checkText() {
+     await store.dispatch(CheckText(0));
+  }
+
+  if (check === false) {
+    checkText()
+
+    return (
+      <Navigate to="/" />
+    )
+
+  } else if (text === null) {
+    store.dispatch(CheckText(id));
     store.dispatch(ShowTextById(id));
 
     return (
       <div></div>
     )
   } else if (text.id !== parseInt(id)) {
+    store.dispatch(CheckText(id));
     store.dispatch(ShowTextById(id));
+
 
     return (
       <div></div>
@@ -56,6 +71,7 @@ function PaginaTexto(props) {
 function mapStateToProps(state) {
   return {
     textById: state.textById,
+    checkText: state.checkText
   }
 }
 

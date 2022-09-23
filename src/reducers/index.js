@@ -128,6 +128,16 @@ const showTextByIdReducer = (text = null, action) => {
   return text;
 };
 
+const checkTextReducer = (checkText = true, action) => {
+  if (action.type === 'CHECK_TEXT') {
+
+    return action.payload;
+    
+  }
+  
+  return checkText;
+};
+
 
 export default combineReducers({
 
@@ -143,6 +153,7 @@ export default combineReducers({
   show_mar: showAllMarTextsReducer,
   open: openCloseMenuReducer,
   textById: showTextByIdReducer,
+  checkText: checkTextReducer,
   form: formReducer
   
 });
