@@ -58,8 +58,8 @@ const getTextReducer = (text = null, action) => {
   return text;
 };
 
-const getLastTextReducer = (last = null, action) => {
-  if (action.type === 'GET_LAST_TEXT') {
+const getLastTextsReducer = (last = null, action) => {
+  if (action.type === 'GET_LAST_TEXTS') {
 
     return action.payload;
     
@@ -146,7 +146,7 @@ export default combineReducers({
   fail: failedLogInReducer,
   texts: getTextsReducer,
   text: getTextReducer,
-  last: getLastTextReducer,
+  last: getLastTextsReducer,
   texts_emp: getEmpTextsReducer,
   show_emp: showAllEmpTextsReducer,
   texts_mar: getMarTextsReducer,

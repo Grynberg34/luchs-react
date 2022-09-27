@@ -9,7 +9,7 @@ import "../scss/paginatexto.scss";
 
 function PaginaTexto(props) {
 
-  let { id } = useParams();
+  var { id } = useParams();
 
   var text = props.textById;
 

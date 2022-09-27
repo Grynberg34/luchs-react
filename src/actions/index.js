@@ -159,7 +159,7 @@ export const DeleteText = (token, id) => async dispatch => {
 
 };
 
-export const GetLastText = () => async dispatch => {
+export const GetLastTexts = () => async dispatch => {
 
     await api.get('/home/banner', {
         headers: {
@@ -167,7 +167,7 @@ export const GetLastText = () => async dispatch => {
         }
     })
     .then(function(response){
-        dispatch({ type: 'GET_LAST_TEXT', payload: response.data});
+        dispatch({ type: 'GET_LAST_TEXTS', payload: response.data});
     })
     .catch(function(err){
         console.log(err)
