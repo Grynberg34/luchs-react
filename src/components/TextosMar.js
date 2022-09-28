@@ -25,7 +25,7 @@ function TextosMar(props) {
     )
   } else if (show_mar === false) {
     return (
-      <div id="marketeiras" className='textos'>
+      <div id="marketeiras" className='textos' style={{backgroundImage: `url("/fundo-blog.png")` }}>
         <h1 className='textos__title'>Para marketeiras</h1>
         <img src='/blog-barra.svg' className='textos__bar' alt=''></img>
 
@@ -95,7 +95,7 @@ function TextosMar(props) {
     )
   } else if (show_mar === true) {
     return (
-      <div id="marketeiras" className='textos'>
+      <div id="marketeiras" className='textos' style={{backgroundImage: `url("/fundo-blog.png")` }}>
         <h1 className='textos__title'>Para marketeiras</h1>
         <img src='/blog-barra.svg' className='textos__bar' alt=''></img>
 

@@ -25,7 +25,7 @@ function TextosEmp(props) {
     )
   } else if (show_emp === false) {
     return (
-      <div id="empresarias" className='textos'>
+      <div id="empresarias" className='textos' style={{backgroundImage: `url("/fundo-blog.png")` }}>
         <h1 className='textos__title'>Para empresárias</h1>
         <img src='/blog-barra.svg' className='textos__bar' alt=''></img>
 
@@ -95,7 +95,7 @@ function TextosEmp(props) {
     )
   } else if (show_emp === true) {
     return (
-      <div id="empresarias" className='textos'>
+      <div id="empresarias" className='textos' style={{backgroundImage: `url("/fundo-blog.png")` }}>
         <h1 className='textos__title'>Para empresárias</h1>
         <img src='/blog-barra.svg' className='textos__bar' alt=''></img>
 

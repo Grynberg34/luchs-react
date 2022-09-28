@@ -6,7 +6,7 @@ import "../scss/listaserviços.scss";
 function ListaServiços() {
 
   return (
-    <div id="lista">
+    <div id="lista" style={{backgroundImage: `url("/fundo-serviços.jpg")` }}>
       <Container className="lista">
         <h1 className="lista__title">Nossos serviços</h1>
 

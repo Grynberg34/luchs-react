@@ -6,7 +6,7 @@ import "../scss/quemsomos.scss";
 function QuemSomos() {
 
   return (
-    <div id="quemsomos" className="quemsomos">
+    <div id="quemsomos" className="quemsomos" style={{backgroundImage: `url("/fundo-quemsomos.png")` }}>
       <Container fluid>
         <Row>
           <Col md={7}>
