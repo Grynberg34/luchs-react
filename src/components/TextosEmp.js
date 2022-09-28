@@ -95,7 +95,7 @@ function TextosEmp(props) {
     )
   } else if (show_emp === true) {
     return (
-      <div className='textos'>
+      <div id="empresarias" className='textos'>
         <h1 className='textos__title'>Para empresárias</h1>
         <img src='/blog-barra.svg' className='textos__bar' alt=''></img>
 
