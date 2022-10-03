@@ -16,7 +16,7 @@ function PaginaTexto(props) {
   var check = props.checkText;
 
   async function checkText() {
-     await store.dispatch(CheckText(0));
+    await store.dispatch(CheckText(0));
   }
 
   if (check === false) {
