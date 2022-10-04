@@ -48,6 +48,37 @@
 
 }
 
+@media only screen and (max-width: 767px) {
+
+    .contato {
+        height: unset;
+        padding-top: 10vw;
+
+        .contato__title {
+            font-size: 30px;
+        }
+
+        .contato__bar {
+            border: none;
+        }
+
+        .contato__subtitle {
+            font-size: 10px;
+            line-height: 2;
+        }
+
+
+        .contato__logo {
+            margin-top: 6vw;
+            margin-bottom: 10vw;
+            position: unset;
+            width: 50%;
+        }
+
+    }
+
+}
+
 @media only screen and (min-width: 900px) and (max-width: 1100px) {
 
     .contato {

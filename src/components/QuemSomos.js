@@ -8,9 +8,10 @@ function QuemSomos() {
   return (
     <div id="quemsomos" className="quemsomos" style={{backgroundImage: `url("/fundo-quemsomos.png")` }}>
       <Container fluid>
+        <h1 className="quemsomos__title">Quem são</h1>
+        
         <Row>
-          <Col md={7}>
-              <h1 className="quemsomos__title">Quem são</h1>
+          <Col xs={{span: 12, order: 2 }} md={{span: 7, order: 1 }}>
               <p className="quemsomos__text">
                 A Lüchs é diferente de todas as agências que você conhece. 
                 <br></br><br></br>
@@ -30,7 +31,7 @@ function QuemSomos() {
               </p>
           </Col>
 
-          <Col md={5}>
+          <Col xs={{span: 12, order: 1 }} md={{span: 5, order: 2 }}>
             <img className="quemsomos__img" src="/quemsomos.png" alt="quemsomos"></img>
           </Col>
         </Row>

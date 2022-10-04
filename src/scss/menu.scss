@@ -48,6 +48,33 @@
     }
 }
 
+@media only screen and (max-width: 767px) {
+
+    .icon {
+        position: absolute;
+        position: absolute;
+        top: 5%;
+        left: 9%;
+        width: 17%;
+        z-index: 99;
+    }
+
+    .open {
+        position: absolute;
+        top: 5%;
+        left: 9%;
+        width: 55%;
+        padding: 6vw;
+        padding-bottom: 4vw;
+        z-index: 99;
+
+        .open__link {
+            margin-bottom: 4vw;
+        }
+    }
+
+}
+
 
 @media only screen and (min-width: 900px) and (max-width: 1100px) {
     .open {

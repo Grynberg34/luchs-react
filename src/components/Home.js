@@ -6,12 +6,14 @@ import Clientes from './Clientes';
 import TextosEmp from './TextosEmp';
 import TextosMar from './TextosMar';
 import Contato from './Contato';
+import Logo from './Logo';
 
 function Home() {
 
   return (
     <div>
       <MenuHome />
+      <Logo />
       <Banner />
       <QuemSomos />
       <Serviços />

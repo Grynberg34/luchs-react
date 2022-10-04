@@ -26,10 +26,11 @@ function Banner(props) {
           <Carousel.Item key={text.id} className="banner">
 
             <Link  to={`/textos/${text.id}`}>
-              
-              <img src='/logo.svg' className='banner__logo' alt='logo'></img>
+
 
               <img src={`/banners/${text.id}.png`} alt="banner" className='banner__img'></img>
+              <div className="banner__gradient"></div>
+              <img src={`/banners/${text.id}-mobile.png`} alt="banner" className='banner__img--mobile'></img>
               <img src='/bola-banner-principal.png' className='banner__ball' alt='logo'></img>
 
               <div className='banner__info'>
