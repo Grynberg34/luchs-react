@@ -46,6 +46,49 @@
     margin-left: 4vw;
 }
 
+@media only screen and (max-width: 767px) {
+
+    #lista {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .lista {
+
+        .lista__title {
+            font-size: 60px;
+            padding-top: 10vw;
+            margin-bottom: 10vw;
+            text-align: center;
+        }
+
+        .lista__card {
+            margin-bottom: 10vw;
+
+            .lista__card__info {
+                .lista__card__info__title {
+                    font-size: 30px;
+                    margin-top: 8vw;
+                    margin-bottom: 4vw;
+
+                }
+
+                .lista__card__info__text {
+                    font-size: 14px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .right {
+        margin-left: 0;
+        text-align: right;
+    }
+
+
+}
+
 @media only screen and (min-width: 900px) and (max-width: 1100px) {
     
     .lista {

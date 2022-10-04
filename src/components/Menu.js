@@ -25,7 +25,7 @@ function Menu(props) {
       <div className="open">
           <h1 onClick={openClose} className="open__close">x</h1>
           <Link onClick={openClose}  to="/#quemsomos" className="open__link">_Quem São</Link>
-          <Link onClick={openClose}  to="/#servicos" className="open__link">_Serviços</Link>
+          <Link onClick={openClose}  to="/servicos" className="open__link">_Serviços</Link>
           <Link onClick={openClose}  to="/#clientes" className="open__link">_Clientes</Link>
           <Link onClick={openClose}  to="/#empresarias" className="open__link">_Para empresárias</Link>
           <Link onClick={openClose}  to="/#marketeiras" className="open__link">_Para marketeiras</Link>

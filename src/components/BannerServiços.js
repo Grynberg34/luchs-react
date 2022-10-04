@@ -1,15 +1,15 @@
-import "../scss/banner.scss";
+import "../scss/bannerserviços.scss";
 
 function BannerServiços() {
 
 
   return (
 
-    <div className='banner'>
-        
-      <img src='/logo.svg' className='banner__logo' alt='logo'></img>
+    <div className='banner-serviços'>
 
-      <img src='/servicos/banner.png' alt="banner" className='banner__img'></img>
+      <img src='/servicos/banner.png' alt="banner" className='banner-serviços__img'></img>
+
+      <img src='/servicos/banner-mobile.png' alt="banner" className='banner-serviços__img--mobile'></img>
 
     </div>
   )
