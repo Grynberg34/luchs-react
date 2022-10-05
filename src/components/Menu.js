@@ -29,7 +29,7 @@ function Menu(props) {
           <Link onClick={openClose}  to="/#clientes" className="open__link">_Clientes</Link>
           <Link onClick={openClose}  to="/#empresarias" className="open__link">_Para empresárias</Link>
           <Link onClick={openClose}  to="/#marketeiras" className="open__link">_Para marketeiras</Link>
-          <Link onClick={openClose}  to="/#contato" className="open__link">_Contato</Link>
+          <Link onClick={openClose}  to="#contato" className="open__link">_Contato</Link>
       </div>
     )
   }
