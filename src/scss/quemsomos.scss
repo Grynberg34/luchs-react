@@ -28,6 +28,14 @@
     }
 }
 
+.title__mobile {
+    display: none;
+}
+
+.title__desktop {
+    display: block;
+}
+
 @media only screen and (max-width: 767px) {
 
     .quemsomos {
@@ -47,6 +55,14 @@
             font-size: 16px;
             width: 100%;
         }
+    }
+
+    .title__mobile {
+        display: block;
+    }
+
+    .title__desktop {
+        display: none;
     }
 
 }
