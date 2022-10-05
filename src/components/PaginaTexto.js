@@ -4,6 +4,7 @@ import { Link, useParams, Navigate } from "react-router-dom";
 import { ShowTextById } from '../actions';
 import { CheckText } from '../actions';
 import Menu from './Menu';
+import Logo from './Logo';
 import Contato from './Contato';
 import "../scss/paginatexto.scss";
 
@@ -43,13 +44,18 @@ function PaginaTexto(props) {
     )
   }  else {
     var next = text.id + 1;
+    var style = {backgroundImage: `url('/blog/${text.id}.png')`};
+
+    if (window.innerWidth < 767) {
+      style = {backgroundImage: `url('/blog/${text.id}-mobile.png')`}
+    }
 
     return (
       <div>
-        <div className="texto" style={{backgroundImage: `url('/blog/${text.id}.png')`}}>
+        <Logo />
+        <div className="texto" style={style}>
           <Menu />
           <h2 className="texto__category">{text.categoria}</h2>
-          <img src='/logo.svg' className='logo' alt='logo'></img>
           <Link to={`/textos/${next}`} className="texto__mais">
             <img className='texto__mais__seta' src='/seta-prox.png' alt=""></img>
             Leia mais!
