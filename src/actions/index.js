@@ -254,3 +254,9 @@ export const CheckText = (id) => async dispatch => {
     }
 
 };
+
+export const CheckOffset = (height) => async dispatch => {
+
+    dispatch({ type: 'CHECK_OFFSET', payload: height});
+
+};

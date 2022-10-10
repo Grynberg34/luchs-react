@@ -2,7 +2,6 @@ import { connect } from 'react-redux';
 import { store } from '../store';
 import { OpenCloseMenu } from '../actions';
 import { HashLink as Link } from 'react-router-hash-link';
-
 import "../scss/menu.scss";
 
 function Menu(props) {

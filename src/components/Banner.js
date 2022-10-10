@@ -21,6 +21,18 @@ function Banner(props) {
     return (
       <Carousel interval={4000} controls={false}>
 
+        <Carousel.Item className="banner">
+
+          <Link  to='/'>
+
+            <img src={`/banners/first.jpeg`} alt="banner" className='banner__img'></img>
+            <div className="banner__gradient"></div>
+            <img src={`/banners/first-mobile.jpeg`} alt="banner" className='banner__img--mobile'></img>
+              
+          </Link>
+
+        </Carousel.Item>
+
         { last.map( (text, index) => 
 
           <Carousel.Item key={text.id} className="banner">

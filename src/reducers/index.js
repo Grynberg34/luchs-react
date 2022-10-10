@@ -138,6 +138,16 @@ const checkTextReducer = (checkText = true, action) => {
   return checkText;
 };
 
+const checkOffsetReducer = (checkOffset = 1000, action) => {
+  if (action.type === 'CHECK_OFFSET') {
+
+    return action.payload;
+    
+  }
+  
+  return checkOffset;
+};
+
 
 export default combineReducers({
 
@@ -154,6 +164,7 @@ export default combineReducers({
   open: openCloseMenuReducer,
   textById: showTextByIdReducer,
   checkText: checkTextReducer,
+  checkOffset: checkOffsetReducer,
   form: formReducer
   
 });
