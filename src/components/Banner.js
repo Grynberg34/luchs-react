@@ -25,9 +25,9 @@ function Banner(props) {
 
           <Link  to='/'>
 
-            <img src={`/banners/first.jpeg`} alt="banner" className='banner__img'></img>
+            <img src={`/banners/first.png`} alt="banner" className='banner__img'></img>
             <div className="banner__gradient"></div>
-            <img src={`/banners/first-mobile.jpeg`} alt="banner" className='banner__img--mobile'></img>
+            <img src={`/banners/first-mobile.png`} alt="banner" className='banner__img--mobile'></img>
               
           </Link>
 
