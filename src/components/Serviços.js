@@ -59,7 +59,7 @@ function Serviços(props) {
   if (window.innerWidth < 767 && offset !== 0) {
     store.dispatch(CheckOffset(850))
   } else if (offset !== 0) {
-    store.dispatch(CheckOffset(0))
+    store.dispatch(CheckOffset(1000))
   }
 
   const scrollWithOffset = (el) => {

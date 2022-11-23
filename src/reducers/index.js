@@ -138,7 +138,7 @@ const checkTextReducer = (checkText = true, action) => {
   return checkText;
 };
 
-const checkOffsetReducer = (checkOffset = 0, action) => {
+const checkOffsetReducer = (checkOffset = 1000, action) => {
   if (action.type === 'CHECK_OFFSET') {
 
     return action.payload;
