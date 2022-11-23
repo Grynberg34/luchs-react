@@ -29,6 +29,10 @@ function TextosEmp(props) {
         <h1 className='textos__title'>Para empresárias</h1>
         <img src='/blog-barra.svg' className='textos__bar' alt=''></img>
 
+        <img src="/espiral.svg" className="scale-up-center" id='espiral' alt="" />
+        <img src="/gotas.svg" className="scale-up-center" id='gotas' alt="" />
+        <img src="/barra.svg" className="scale-up-center" id='barra' alt="" />
+
         { texts_emp.map( (text, i) => 
             {
               if (text.numero % 2 !== 0 && i < 2) {

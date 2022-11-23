@@ -54,10 +54,12 @@ function Serviços(props) {
 
   var offset = props.checkOffset;
 
+  console.log(offset);
+
   if (window.innerWidth < 767 && offset !== 0) {
     store.dispatch(CheckOffset(850))
   } else if (offset !== 0) {
-    store.dispatch(CheckOffset(1000))
+    store.dispatch(CheckOffset(0))
   }
 
   const scrollWithOffset = (el) => {

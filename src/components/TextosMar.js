@@ -28,6 +28,9 @@ function TextosMar(props) {
       <div id="marketeiras" className='textos' style={{backgroundImage: `url("/fundo-blog.png")` }}>
         <h1 className='textos__title'>Para marketeiras</h1>
         <img src='/blog-barra.svg' className='textos__bar' alt=''></img>
+        <img src="/espiral-reta.svg" className="scale-up-center" id='espiral' alt="" />
+        <img src="/gotas.svg" className="scale-up-center" id='gotas' alt="" />
+        <img src="/barra.svg" className="scale-up-center" id='barra' alt="" />
 
         { texts_mar.map( (text, i) => 
             {
