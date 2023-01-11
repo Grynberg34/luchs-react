@@ -43,7 +43,7 @@ function User(props) {
             { texts.map( (text) => 
               <div key={text.id}>
 
-                <Link  to={`/user/textos/${text.id}`}>{text.titulo} | {text.categoria} |  <SimpleDateTime dateFormat="DMY" dateSeparator="/"  showTime="false">{text.data}</SimpleDateTime> | {text.autora}</Link> <button onClick={() => deleteText(text.id)}>DELETE</button>
+                <Link  to={`/user/textos/${text.id}`}>{text.titulo} | {text.categoria} |  <SimpleDateTime dateFormat="DMY" dateSeparator="/"  showTime="false">{text.data}</SimpleDateTime> | {text.autora}</Link> <button onClick={() => deleteText(text.id)}>Deletar</button>
               </div>
             )} 
           </div>
